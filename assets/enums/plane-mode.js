@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PlaneMode = void 0;
+var PlaneMode;
+(function (PlaneMode) {
+    PlaneMode[PlaneMode["PLANE_MODE_MANUAL"] = 0] = "PLANE_MODE_MANUAL";
+    PlaneMode[PlaneMode["PLANE_MODE_CIRCLE"] = 1] = "PLANE_MODE_CIRCLE";
+    PlaneMode[PlaneMode["PLANE_MODE_STABILIZE"] = 2] = "PLANE_MODE_STABILIZE";
+    PlaneMode[PlaneMode["PLANE_MODE_TRAINING"] = 3] = "PLANE_MODE_TRAINING";
+    PlaneMode[PlaneMode["PLANE_MODE_ACRO"] = 4] = "PLANE_MODE_ACRO";
+    PlaneMode[PlaneMode["PLANE_MODE_FLY_BY_WIRE_A"] = 5] = "PLANE_MODE_FLY_BY_WIRE_A";
+    PlaneMode[PlaneMode["PLANE_MODE_FLY_BY_WIRE_B"] = 6] = "PLANE_MODE_FLY_BY_WIRE_B";
+    PlaneMode[PlaneMode["PLANE_MODE_CRUISE"] = 7] = "PLANE_MODE_CRUISE";
+    PlaneMode[PlaneMode["PLANE_MODE_AUTOTUNE"] = 8] = "PLANE_MODE_AUTOTUNE";
+    PlaneMode[PlaneMode["PLANE_MODE_AUTO"] = 10] = "PLANE_MODE_AUTO";
+    PlaneMode[PlaneMode["PLANE_MODE_RTL"] = 11] = "PLANE_MODE_RTL";
+    PlaneMode[PlaneMode["PLANE_MODE_LOITER"] = 12] = "PLANE_MODE_LOITER";
+    PlaneMode[PlaneMode["PLANE_MODE_TAKEOFF"] = 13] = "PLANE_MODE_TAKEOFF";
+    PlaneMode[PlaneMode["PLANE_MODE_AVOID_ADSB"] = 14] = "PLANE_MODE_AVOID_ADSB";
+    PlaneMode[PlaneMode["PLANE_MODE_GUIDED"] = 15] = "PLANE_MODE_GUIDED";
+    PlaneMode[PlaneMode["PLANE_MODE_INITIALIZING"] = 16] = "PLANE_MODE_INITIALIZING";
+    PlaneMode[PlaneMode["PLANE_MODE_QSTABILIZE"] = 17] = "PLANE_MODE_QSTABILIZE";
+    PlaneMode[PlaneMode["PLANE_MODE_QHOVER"] = 18] = "PLANE_MODE_QHOVER";
+    PlaneMode[PlaneMode["PLANE_MODE_QLOITER"] = 19] = "PLANE_MODE_QLOITER";
+    PlaneMode[PlaneMode["PLANE_MODE_QLAND"] = 20] = "PLANE_MODE_QLAND";
+    PlaneMode[PlaneMode["PLANE_MODE_QRTL"] = 21] = "PLANE_MODE_QRTL";
+    PlaneMode[PlaneMode["PLANE_MODE_QAUTOTUNE"] = 22] = "PLANE_MODE_QAUTOTUNE";
+    PlaneMode[PlaneMode["PLANE_MODE_ENUM_END"] = 23] = "PLANE_MODE_ENUM_END";
+})(PlaneMode = exports.PlaneMode || (exports.PlaneMode = {}));
+//# sourceMappingURL=plane-mode.js.map
