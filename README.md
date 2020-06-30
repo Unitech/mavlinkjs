@@ -4,6 +4,15 @@
 Working system to directly connect to a PX4 controller via USB with Raw Javascript.
 All GRPC files are linked into this repository, ready to be used without any compilation steps.
 
+```bash
+git clone https://github.com/Unitech/mavlinkjs.git
+cd mavlinkjs
+npm install
+node example.js
+```
+
+Content of example.js:
+
 ```javascript
 var SerialPort = require('serialport')
 var message_registry = require('./assets/message-registry')
@@ -29,7 +38,7 @@ mavLink.on('message', function (message) {
 
 Result of running this will output this data at very high rate:
 
-```json
+```javascript
 LocalPositionNed {
   _system_id: 1,
   _component_id: 1,
